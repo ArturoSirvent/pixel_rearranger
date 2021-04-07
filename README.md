@@ -6,5 +6,4 @@ The purpose is to exemplificate how a Multilayer Perceptron sees "in the same wa
 The arrangement is made channel by channel!!!
 This means that by the same pixels, we mean the same total numbers channel by channel (independently), we can come up with new colors. Also there's a way of making it with the exact color pixels, but the results still not great.
 
-<img src="avion_tfg.png" alt="drawing" width="200"/>
-<img src="barco_tfg.png" alt="drawing" width="200"/>
+<img src="avion_tfg.png" alt="drawing" width="700"/> <img src="barco_tfg.png" alt="drawing" width="700"/>
