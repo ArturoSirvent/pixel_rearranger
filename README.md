@@ -1,7 +1,7 @@
 # pixel re-arranger
-Small python code made for rearranging the pixels in an image in order to recreate another image.
+Python code snippet made for rearranging the pixels of an image in order to recreate another image.
 
-The purpose is to exemplificate how a Multilayer Perceptron sees "in the same way" two images, because they have the same pixels. And the dinstiction is easy once one take care of pixels near pixels (CNN's).
+The purpose is to exemplify how a Multilayer Perceptron sees "in the same way" two images, because they have the same pixels. And the distiction is easy once one takes care of pixels relative positions (CNN's).
 
 The arrangement can be made channel by channel!!!
 This means that by the same pixels, we mean the same total numbers channel by channel (independently), we can come up with new colors. Also there's a way of making it with the exact color pixels, but the results still not great.
