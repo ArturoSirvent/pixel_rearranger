@@ -6,7 +6,7 @@ The purpose is to exemplify how a Multilayer Perceptron sees "in the same way" t
 The arrangement can be made channel by channel.
 This means that by the same pixels, we mean the same total numbers channel by channel (independently), we can come up with new colors. Also there's a way of making it with the exact color pixels, made pixel RGB by pixel RGB. Its quite slow but the result is good. To redistribute the pixels that are very diferent, those are spread randomly through the image, and looks like salt pepper noise, but in this way we can get rid of really different colors.  
 
-Note: Its very convenient to make some kind of color translation of the image we want to reproduce, to the color domain of the image we are taking the pixels from. It will look simply as a filter, giving a tone to it.
+Note: Its very convenient to make some kind of color translation of the image we want to reproduce, to the color domain of the image we are taking the pixels from. It will look simply as a filter, giving a tone to it. See <a href=https://scikit-image.org/docs/stable/auto_examples/color_exposure/plot_histogram_matching.html#sphx-glr-auto-examples-color-exposure-plot-histogram-matching-py>Histogram matching </a>
 
 
 <img src="avion_tfg.png" alt="drawing" width="700"/> <img src="barco_tfg.png" alt="drawing" width="700"/>
